@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagens e Áudios</title>
+</head>
+<body> <h1>Imagem Dinâmica</h1>
+    <p>Teste de imagem dinâmica.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Testando áudios.</p>
+    <audio src="midia/Gekyume_s Misery(MP3_320K).mp3" controls autoplay></audio>
+    <br>
+    <audio preload="metadata" controls> 
+    <source src="midia/Central Cee x Dave - Sprinter (KARMA Remix)_PZMGJkXeP5k.mp3" type="">
+    </audio>
+</body>
+</html>

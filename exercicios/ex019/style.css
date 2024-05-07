@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: lightskyblue;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline black;
+    color: blue;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bolder;
+    color: blue;
+}
+
+p{
+    font-size: 17px;
+}
+
+h1#main{
+    background-color: darkblue;
+    color: skyblue;
+    text-decoration: none;
+}
+
+.detalheb{
+    background-color: green;
+}
+
+.detalhei{
+    background-color: yellow;
+}
+
+.detalhea{
+    background-color: red;
+}

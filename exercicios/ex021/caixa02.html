@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+            margin: 0px;
+        }
+
+        nav{
+            text-align: center;
+            box-shadow: 2px 3px 6px black;
+            background-color: darkcyan;
+        }
+
+        nav > a{
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0);
+            padding: 2px;
+            margin: 0px;
+            text-align: center;
+            color: white;
+        }
+
+        footer > p{
+
+            margin: 0px;
+        }
+
+        article{
+            padding: 5px;
+        }
+
+        aside{
+            text-align: right;
+            font-size: smaller;
+        }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            Esportes Polítia Tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem maxime repellendus iusto nihil suscipit exercitationem magni fuga nemo. Temporibus eveniet quas quod quis praesentium. Sunt aliquam ducimus asperiores sequi.
+                </p>
+            </article>
+            <aside>
+                Artigo escrito por Jefferson Surubinha
+            </aside>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo seu pai</p>
+    </footer>
+</body>
+</html>
